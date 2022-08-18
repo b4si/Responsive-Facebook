@@ -1,0 +1,45 @@
+$(document).ready(function(){
+      $("#login-form").validate({
+            rules:{
+                  emailcheck:{
+                        required:true,
+                        email:true
+                  },
+                  password:{
+                        required:true,
+                  }
+
+            },
+            messages:{
+                  password:{
+                    
+                  }
+            }
+      })
+      $("#second-form").validate({
+            rules:{
+                  fname:{
+                        required:true
+                  },
+                  sname:{
+                        required:true
+                  },
+                  password2:{
+                        required:true
+                  },
+                  emailcheck2:{
+                        required:true,
+                        email:true
+                  },
+                  datecheck:{
+                        required:true
+                  },
+                  monthcheck:{
+                        required:true
+                  },
+                  yearcheck:{
+                        required:true
+                  }
+            }
+      })
+})

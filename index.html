@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook-log in page</title>
+  <link rel="stylesheet" href="facebook.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row" style="background:rgb(248, 247, 247) ; padding-left: 10%;">
+      <div class="col-md-7 ">
+        <img style="width: 50%; margin-top: 20%; margin-left: 15%;" class="fb_logo_8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="">
+        <div class="para_div">
+           <p class="facebook_para">Facebook helps you connect and share  with the people in your life.</p>
+         </div>
+      </div>
+      <div class="col-md-5 ">
+        <section class="vh-100">
+          <div class="container py-5 h-100">
+            <div class="row d-flex align-items-center justify-content-center h-100">
+              <div class="col-md-12">
+                <form id="login-form" class="login_form">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input  name="emailcheck" type="email" id="form1Example13" placeholder="Email address" class="form-control form-control-lg" />
+                  </div>
+        
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <input name="password" type="password" id="form1Example23" placeholder="Password" class="form-control form-control-lg" />
+                  </div>
+        
+                   
+        
+                  <div class="col-md-12">
+                    <button type="button"  style="width:100% ;" class="btn btn-primary btn-lg btn-block">Log In</button>
+                  </div>
+                  <div class="col-md-12 forgot_button">
+                    <a href="#!">Forgotten password?</a>
+                 </div> 
+                 <hr>
+                 <div class="col-md-12">
+                  <button type="button" class="btn btn-success create_account" data-toggle="modal" data-target="#exampleModal">
+                    Create New Account
+                  </button>
+                </div>
+                </form>
+                <div class="col-md-12">
+                  <p style="margin-top: 4%; margin-left: 4%; " ><a style="text-decoration:none ; color: black; font-weight: bold;" href=""> Create a Page </a>for a celebrity, brand or business.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <div class="modal fade" style="margin-top:3% ;" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Sign Up</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div style="margin-top: -5%; margin-left: 3%;" >Its quick and easy</div>
+            <div class="modal-body">
+              <form id="second-form" >
+                <div class="form-row">
+                  <div class="form-group  col-6" style="float: left;">
+                    <input style="width: 97%;" name="fname" type="text" class="form-control" id="inputEmail4" placeholder="First name">
+                  </div>
+                  <div class="form-group  col-6" style="float: left;">
+                    <input name="sname" type="text" class="form-control" id="inputPassword4" placeholder="Surname">
+                  </div>
+                </div>
+                <div class="form-group" style="margin-top: 2%; float: left; width: 100%;" >
+                    <input name="emailcheck2" type="email" class="form-control" id="inputAddress"  placeholder="Mobile number or email address">
+                </div>
+                <div class="form-group" style="margin: 4%; width:100%; margin-left: -0%; float: left;">
+                  <input name="password2" type="password" class="form-control" id="inputAddress2" placeholder="New Password">
+                </div>
+                <div class="dob" for="">Date of birth ?</div>
+                <div class="row col-md-12">
+                  <div class="form-group col-4" style="float: left;">
+                    
+                    <select  class="form-control" name="datecheck" id="">
+                      <option  value="">Date</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-4" style="float: left;">
+                    <select name="monthcheck" id="inputState" class="form-control">
+                      <option selected>Month</option>
+                      <option></option>
+                    </select>
+                  </div>
+                  <div class="form-group col-4" style="float: left;">
+                    <select name="yearcheck" id="inputState2" class="form-control">
+                      <option selected>Year</option>
+                      <option></option>
+                    </select>
+                  </div>
+                  </div>
+                  <div class="gender col-md-12">Gender</div>
+                  <div class="row col-12">
+                    <div class="form-group col-4" style="float: left;">
+                      <span  class="gender2" data-type="radio" data-name="gender_wrapper" id="u_c_o_5B">
+                        <span class="_5k_2 _5dba gender_all">
+                        <label class="_58mt " for="female">Female</label>
+                        <input name="gender" type="radio" class="_8esa radio" name="sex" value="1" id="female">
+                        </span>
+                        </span>
+                    </div>
+                    <div class="form-group col-4" style="float: left;">
+                      <span class="gender2" data-type="radio" data-name="gender_wrapper" id="u_c_o_5B">
+                      <span class="_5k_2 _5dba  gender_all">
+                        <label class="_58mt" for="u_c_3_QK">Male</label>
+                        <input name="gender" type="radio" class="_8esa" name="sex" value="2" id="u_c_3_QK">
+                        </span>
+                      </span>
+                    </div>
+                    <div class="form-group col-4" style="float: left;">
+                      <span class="gender2" data-type="radio" data-name="gender_wrapper" id="u_c_o_5B">
+                      <span class="_5k_2 _5dba gender_all">
+                        <label class="_58mt " for="u_c_4_7J">Custom</label>
+                        <input name="gender" type="radio" class="_8esa" name="sex" value="-1" id="u_c_4_7J">
+                        </span>
+                      </span>
+                    </div>
+              </div>
+                <div class="form-group">
+                </div>
+                <div class="terms_div">
+                  <p class="terms">People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more.</a> </p>
+                </div>
+                <div>
+                  <p class="terms">By clicking Sign Up, you agree to our <a href="">Terms, Privacy Policy</a> and <a href=""> Cookies Policy.</a> You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>
+                <button type="submit" style="margin-left:40%;" class="btn btn-success">Sign up</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12  lastpart_div">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <div class="text-center text-dark p-3" style="background-color:white">
+        <p style="font-size: small;">English (UK)
+        <a class="text-dark list" href="https://mdbootstrap.com/">മലയാളം</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">தமிழ்</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">ಕನ್ನಡ</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">हिन्दी</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">اردو</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">বাংলা</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">తెలుగు</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Español</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Português (Brasil)</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Français (France)</a>
+      </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
+  <hr class="hr">
+  <div class="col-md-12  lastpart_div">
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+      <div class="text-center text-dark p-3" style="background-color:white">
+        <p style="font-size:small ; margin-top:-2% ;">
+        <a class="text-dark list" href="https://mdbootstrap.com/">Sign Up</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">login</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Massenger</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Facebook lite</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Watch</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Places</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Games</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Marketplace</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Facebook pay</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Oculus</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Portal</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Instagram</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Bulletin</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Local</a>
+         </p>
+         <p style="font-size:small ; margin-top:-1% ;">
+          <a class="text-dark list" href="https://mdbootstrap.com/">Fundraisers</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Services</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Voting Information Center</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Groups</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">About</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Create ad</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Create page</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Developers</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Careers</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Privacy</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Cookies</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">AdChoices</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Terms</a>
+         </p>
+         <p style="font-size:small ; margin-top:-1% ;">
+          <a class="text-dark list" href="https://mdbootstrap.com/">Help</a>
+        <a class="text-dark list" href="https://mdbootstrap.com/">Contact uploading and non-users</a>
+         </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+  <script src="facebook.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+  
+</body>
+</html>

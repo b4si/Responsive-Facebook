@@ -1,0 +1,90 @@
+.fb_logo_8ilh img{
+    width: 50%;
+}
+.facebook_para{
+    margin-left: 22%;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-top: -3%;
+    line-height: 1em;
+}
+.login_form{
+    order-radius: 4px;
+    padding: 1em;
+    margin-top: -25%;
+    width: 75%;
+    text-align: center;
+    border: none;
+    background: white;
+    box-shadow: 1px 1px 1px grey;
+   
+
+    /* margin-left: -25%; */
+}
+.forgot_button{
+  margin-top: 5%;
+}
+.para_div{
+    width: 86%;
+    height: 80%;
+}
+.hei_div{
+    margin-top: -20%;
+}
+.second_form{
+  margin-top: 15%;
+}
+.dob{
+    font-size: small;
+}
+.gender{
+    font-size: small;
+}
+.gender2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gender_all{
+    border: 1px solid gray;
+    padding: 0.5em;
+    border-radius: 3px;
+   
+   
+}
+.terms{
+    font-size: small;
+    line-height: 12px;
+    text-decoration: none;
+}
+.terms_div{
+    margin-top: 1em;
+}
+.last_part{
+    color: grey;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+.list{
+    padding-left: 1%;
+    color: grey;
+    text-decoration: none;
+    
+}
+.hr{
+    margin-top: -1.5%;
+    width: 50%;
+    margin-left: 25%;
+}
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
